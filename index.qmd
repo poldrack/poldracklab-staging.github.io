@@ -25,28 +25,14 @@ other feature that makes them unique.
 
 We have an online [Lab Manual](labguide/index.html) that outlines our lab's values, principles, and practices.
 
-Our ongoing research projects include:
-
-- network attack
-- rdoc
-
-Our ongoing tools and infrastructure projects include:
-
-- openneuro
-- fmriprep
-- mriqc
-- cognitive atlas
-- neurovault
-- neurosynth
-
 Learn more about our lab's work:
 
+- [Projects](projects.html)
 - [Publications](publications.html)
 - [Presentations](talks.html)
 - [Software](software.html)
 
 
-<br>
 <br>
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
