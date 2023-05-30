@@ -1,0 +1,37 @@
+---
+format:
+  html:
+    page-layout: full
+---
+
+<center><a><img src="images/stanford-line2-8.png" alt="Poldracklab logo" width="50%"/></a></center>
+
+
+<center><a><img src="images/poldracklab_2022.png" alt="Poldracklab logo" width="50%"/></a></center>
+
+<br>
+<br>
+
+Our lab is focused on understanding how the brain gives rise to adaptive human behaviors.  We use a combination of functional neuroimaging, cognitive psychology, and computational modeling to address this question.  We also develop tools and infrastructure to make neuroscience more transparent and reproducible.
+
+Our ongoing research projects include:
+
+- network attack
+- rdoc
+
+Our ongoing tools and infrastructure projects include:
+
+- openneuro
+- fmriprep
+- mriqc
+- cognitive atlas
+- neurovault
+- neurosynth
+
+Learn more about our lab's work:
+
+- [Publications](publications.html)
+- [Presentations](talks.html)
+- [Software](software.html)
+
+We have an online [Lab Manual](manual) that outlines our lab's values, principles, and practices.
