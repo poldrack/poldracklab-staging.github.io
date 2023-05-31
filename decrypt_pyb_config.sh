@@ -3,6 +3,6 @@
 # Decrypt the file
 # --batch to prevent interactive command
 # --yes to assume "yes" for questions
-mkdir .pybliometrics
+mkdir .config
 gpg --quiet --batch --yes --decrypt --passphrase="$TOKEN_PASSCODE" \
---output .pybliometrics/config.ini config.ini.gpg
+--output .config/pybliometrics.cfg config.ini.gpg
