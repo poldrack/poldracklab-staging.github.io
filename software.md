@@ -32,4 +32,4 @@ For additional information on our organized software development projects, see [
   - Paired Associate Memory
   - [Spatial working memory capacity](http://web.stanford.edu/group/poldracklab/software/SCAP.zip)
   - [Stop Signal task](http://web.stanford.edu/group/poldracklab/software/STOPSIG.zip)
-  - [Task switchin](http://web.stanford.edu/group/poldracklab/software/TASKSWITCH.zip)
+  - [Task switching](http://web.stanford.edu/group/poldracklab/software/TASKSWITCH.zip)
