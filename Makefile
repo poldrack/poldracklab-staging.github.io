@@ -11,3 +11,7 @@ push-site:
 
 encrypt-config:
 	gpg --symmetric --cipher-algo AES256 config.toml
+encrypt-pybconfig:
+	cp /home/poldrack/.pybliometrics/config.ini .
+	gpg --symmetric --cipher-algo AES256 config.ini
+	rm config.ini 
