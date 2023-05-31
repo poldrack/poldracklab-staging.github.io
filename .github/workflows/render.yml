@@ -1,3 +1,11 @@
+name: Render quarto website
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
 jobs:
   render_site:
     runs-on: ubuntu-latest
@@ -9,6 +17,5 @@ jobs:
       run: sudo curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb 
     - name: Install the deb file
       run: sudo apt-get install -y ./quarto-linux-amd64.deb
-
     - name: Verify Install
-          run: /usr/local/bin/quarto check
+      run: /usr/local/bin/quarto check
