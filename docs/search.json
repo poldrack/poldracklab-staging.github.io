@@ -476,11 +476,11 @@
     "text": "Graduate Students\n\nRastko Ciric\nLynde Folsom\nGrace Huckins\nAnna Xu"
   },
   {
-    "objectID": "people.html#research-administrators",
-    "href": "people.html#research-administrators",
+    "objectID": "people.html#research-coordinators",
+    "href": "people.html#research-coordinators",
     "title": "Poldracklab members",
-    "section": "Research Administrators",
-    "text": "Research Administrators\n\nJaime Rios\nSunjae Shim"
+    "section": "Research Coordinators",
+    "text": "Research Coordinators\n\nJaime Rios\nSunjae Shim"
   },
   {
     "objectID": "people.html#software-developers",
@@ -488,6 +488,13 @@
     "title": "Poldracklab members",
     "section": "Software Developers",
     "text": "Software Developers\n\nRoss Blair\nNell Hardcastle\nMathias Goncalves\nChris Markiewicz"
+  },
+  {
+    "objectID": "people.html#lab-alumni",
+    "href": "people.html#lab-alumni",
+    "title": "Poldracklab members",
+    "section": "Lab Alumni",
+    "text": "Lab Alumni\n\nAdam Aron\nAkram Bakkour\nJessica Cohen\nKarin Foerde\nAdriana Galvan\nTom Schonberg"
   },
   {
     "objectID": "volunteer.html",
