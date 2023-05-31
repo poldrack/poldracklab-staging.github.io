@@ -19,6 +19,8 @@ jobs:
       run: sudo apt-get install -y ./quarto-linux-amd64.deb
     - name: Verify Install
       run: /usr/local/bin/quarto check
+    - name: Install nbformat
+      run: pip install nbformat
     - name: Install academicdb
       run: pip install academicdb
     - name: decrypt config file
