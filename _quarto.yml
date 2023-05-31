@@ -26,6 +26,7 @@ website:
       - section: "Getting involved"
         contents:
           - volunteer.md
+          - positions.md
       - section: "Lab guide"
         contents:
           - labguide/mission_statement.md
