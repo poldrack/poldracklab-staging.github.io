@@ -31,6 +31,7 @@ format:
   
 ## Research Coordinators
 
+- Logan Bennett
 - Jaime Rios
 - Sunjae Shim
   
