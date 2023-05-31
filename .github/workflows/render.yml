@@ -1,0 +1,14 @@
+jobs:
+  render_site:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install GDebi first
+      run: sudo apt-get install gdebi-core
+    - name: Download the deb file
+      run: sudo curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb 
+    - name: Install the deb file
+      run: sudo apt-get install -y ./quarto-linux-amd64.deb
+
+    - name: Verify Install
+          run: /usr/local/bin/quarto check
