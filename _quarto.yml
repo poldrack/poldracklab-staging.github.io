@@ -3,23 +3,26 @@ project:
   output-dir: docs
 
 website:
-  title: "The Poldrack Lab at Stanford"
+  title: "The Poldrack Lab @Stanford"
   repo-url: https://github.com/poldracklab/poldracklab.github.io
   repo-actions: [edit, issue] 
+  google-analytics: "379246033"
+  page-footer: 
+    left: "© 2023 Poldrack Lab, released under the <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0 license</a>"
+    right: "Built with <a href='https://quarto.org'>Quarto</a>"
   sidebar:
     style: "docked"
-    logo: "stanford-line2-8.png"
     search: true
     contents:
-      - section: "Basics"
-        contents:
-          - text: "Home"
-            file: index.qmd
-          - text: "Lab members"
-            file: people.md
-          - text: "Projects"
-            file: projects.md
-          - publications.qmd
+      - text: "Home"
+        file: index.qmd
+      - text: "Lab members"
+        file: people.md
+      - text: "Projects"
+        file: projects.md
+      - publications.qmd
+      - text: "Software"
+        file: software.md
       - section: "Getting involved"
         contents:
           - volunteer.md

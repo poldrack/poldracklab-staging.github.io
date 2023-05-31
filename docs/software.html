@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Poldrack Lab at Stanford - Poldracklab software</title>
+<title>The Poldrack Lab @Stanford - Poldracklab software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,6 +58,15 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=379246033"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '379246033', { 'anonymize_ip': true});
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -72,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Poldracklab software</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./software.html">Software</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -86,9 +95,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./stanford-line2-8.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">The Poldrack Lab <span class="citation" data-cites="Stanford">@Stanford</span></a> 
+    </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -97,50 +106,45 @@ ul.task-list li input[type="checkbox"] {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Basics</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./people.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lab members</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./projects.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./publications.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Publications</span></a>
   </div>
 </li>
-      </ul>
-  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./software.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Software</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
  <span class="menu-text">Getting involved</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./volunteer.html" class="sidebar-item-text sidebar-link">
@@ -151,13 +155,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
  <span class="menu-text">Lab guide</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./labguide/mission_statement.html" class="sidebar-item-text sidebar-link">
@@ -166,13 +170,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
  <span class="menu-text">Lab environment</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./labguide/environment/code_of_conduct.html" class="sidebar-item-text sidebar-link">
@@ -219,13 +223,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
  <span class="menu-text">Research practices</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./labguide/research/human_subjects.html" class="sidebar-item-text sidebar-link">
@@ -284,13 +288,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
  <span class="menu-text">Publication and dissemination</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./labguide/publication/authorship.html" class="sidebar-item-text sidebar-link">
@@ -342,11 +346,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#github-repositories" id="toc-github-repositories" class="nav-link active" data-scroll-target="#github-repositories">Github repositories</a></li>
+  <li><a href="#datacode-for-published-papers" id="toc-datacode-for-published-papers" class="nav-link" data-scroll-target="#datacode-for-published-papers">Data/code for published papers</a></li>
+  <li><a href="#software-for-tasks-used-in-lab-publications" id="toc-software-for-tasks-used-in-lab-publications" class="nav-link" data-scroll-target="#software-for-tasks-used-in-lab-publications">Software for tasks used in lab publications</a></li>
+  <li><a href="#software-used-in-consortium-for-neuropsychiatric-phenomics-cnp" id="toc-software-used-in-consortium-for-neuropsychiatric-phenomics-cnp" class="nav-link" data-scroll-target="#software-used-in-consortium-for-neuropsychiatric-phenomics-cnp">Software used in Consortium for Neuropsychiatric Phenomics (CNP)</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/software.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -365,44 +378,43 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>
-Our lab endeavors to make all of our research code openly available. &nbsp;None of this code is guaranteed to work outside of our local environment, and most of it is not built for portability, but if you use it and find any bugs, please let us know. &nbsp;Unless otherwise noted, all code is released under the unrestrictive&nbsp;<a href="http://opensource.org/licenses/MIT">MIT License</a>. &nbsp;
-</p>
+<p>Our lab endeavors to make all of our research code openly available. None of this code is guaranteed to work outside of our local environment, and most of it is not built for portability, but if you use it and find any bugs, please let us know. Unless otherwise noted, all code is released under the unrestrictive <a href="http://opensource.org/licenses/MIT">MIT License</a></p>
+<p>For additional information on our organized software development projects, see <a href="./projects.html">here</a>.</p>
+<section id="github-repositories" class="level2">
+<h2 class="anchored" data-anchor-id="github-repositories">Github repositories</h2>
 <ul>
-<li>
-<p><a href="https://github.com/poldracklab">Poldracklab github</a>&nbsp;- lab repository</p>
-<pre><code>&lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://github.com/poldracklab/DLMNP_simulations"&gt;Simulation code from Davis et al. 2014&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://github.com/poldrack"&gt;Russ Poldrack's github&lt;/a&gt;&amp;nbsp; - home to much of the analysis code that Russ has developed&lt;/li&gt;
-&lt;li&gt;Data/code for published papers
-&lt;ul&gt;
-    &lt;li&gt;Data for our imaging papers is available via the&amp;nbsp;&lt;a href="http://www.openfmri.org/"&gt;OpenfMRI project&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://web.stanford.edu/group/poldracklab/data/WhitePoldrack2014.zip"&gt;Data/code for White &amp;amp; Poldrack, 2014&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Software for tasks used in the lab
-&lt;ul&gt;
-    &lt;li&gt;&lt;a href="http://web.stanford.edu/group/poldracklab/software/stopsig_behav.zip"&gt;Stop signal task&lt;/a&gt;&amp;nbsp;(for behavioral testing outside the scanner)&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://web.stanford.edu/group/poldracklab/software/stopsig_fmri.zip"&gt;Stop signal task&amp;nbsp;&lt;/a&gt;(for use in the scanner)&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://web.stanford.edu/group/poldracklab/software/mixed_gambles_task.zip"&gt;mixed gambles task&amp;nbsp;&lt;/a&gt;(demo and scanning script)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Software used in Consortium for Neuropsychiatric Phenomics (CNP)
-&lt;ul&gt;
-    &lt;li&gt;​&amp;nbsp;Users of these tasks should include the following acknowledgment in any resulting publications:&amp;nbsp;&lt;em&gt;Development of this software was supported by the Consortium for Neuropsychiatric Phenomics (NIH Roadmap for Medical Research grants UL1-DE019580, RL1MH083269, RL1DA024853, PL1MH083271&lt;/em&gt;.&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://web.stanford.edu/group/poldracklab/software/BART.zip"&gt;Balloon Analog Risk task&amp;nbsp;&lt;/a&gt;(demo and scanning script)&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://web.stanford.edu/group/poldracklab/software/BHT.zip"&gt;Breath holding task&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Paired Associate Memory&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://web.stanford.edu/group/poldracklab/software/SCAP.zip"&gt;Spatial working memory capacity&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://web.stanford.edu/group/poldracklab/software/STOPSIG.zip"&gt;Stop Signal task&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://web.stanford.edu/group/poldracklab/software/TASKSWITCH.zip"&gt;Task switchin&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;</code></pre>
-</li></ul>
+<li><a href="https://github.com/poldracklab">Poldracklab Github organization</a></li>
+<li><a href="http://github.com/poldrack">Russ Poldrack’s Github page</a></li>
+</ul>
+</section>
+<section id="datacode-for-published-papers" class="level2">
+<h2 class="anchored" data-anchor-id="datacode-for-published-papers">Data/code for published papers</h2>
+<ul>
+<li>Data for several of our our imaging papers is available via the <a href="http://www.openneuro.org/">OpenNeuro project</a></li>
+<li><a href="https://github.com/poldracklab/DLMNP_simulations">Simulation code from Davis et al.&nbsp;2014</a></li>
+<li><a href="https://web.stanford.edu/group/poldracklab/data/WhitePoldrack2014.zip">Data/code for White &amp; Poldrack, 2014</a></li>
+</ul>
+</section>
+<section id="software-for-tasks-used-in-lab-publications" class="level2">
+<h2 class="anchored" data-anchor-id="software-for-tasks-used-in-lab-publications">Software for tasks used in lab publications</h2>
+<ul>
+<li><a href="http://web.stanford.edu/group/poldracklab/software/mixed_gambles_task.zip">mixed gambles task</a> (demo and scanning script from task used in Tom et al., 2007)</li>
+</ul>
+</section>
+<section id="software-used-in-consortium-for-neuropsychiatric-phenomics-cnp" class="level2">
+<h2 class="anchored" data-anchor-id="software-used-in-consortium-for-neuropsychiatric-phenomics-cnp">Software used in Consortium for Neuropsychiatric Phenomics (CNP)</h2>
+<ul>
+<li>​Users of these tasks should include the following acknowledgment in any resulting publications: Development of this software was supported by the Consortium for Neuropsychiatric Phenomics (NIH Roadmap for Medical Research grants UL1-DE019580, RL1MH083269, RL1DA024853, PL1MH083271.</li>
+<li><a href="http://web.stanford.edu/group/poldracklab/software/BART.zip">Balloon Analog Risk task</a> (demo and scanning script)</li>
+<li><a href="http://web.stanford.edu/group/poldracklab/software/BHT.zip">Breath holding task</a></li>
+<li>Paired Associate Memory</li>
+<li><a href="http://web.stanford.edu/group/poldracklab/software/SCAP.zip">Spatial working memory capacity</a></li>
+<li><a href="http://web.stanford.edu/group/poldracklab/software/STOPSIG.zip">Stop Signal task</a></li>
+<li><a href="http://web.stanford.edu/group/poldracklab/software/TASKSWITCH.zip">Task switchin</a></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -639,7 +651,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© 2023 Poldrack Lab, released under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">Built with <a href="https://quarto.org">Quarto</a></div>
+  </div>
+</footer>
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/software.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div></div></footer></body></html>
+</body></html>

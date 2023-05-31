@@ -23,7 +23,7 @@ gender identity or expression, sexual orientation, race, ethnicity,
 religion, age, neurodiversity, disability status, citizenship, or any
 other feature that makes them unique.
 
-We have an online [Lab Manual](labguide/index.html) that outlines our lab's values, principles, and practices.
+We have an online [Lab Guide](labguide/index.html) that outlines our lab's values, principles, and practices.
 
 Learn more about our lab's work:
 

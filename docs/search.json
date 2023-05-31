@@ -151,14 +151,14 @@
     "href": "labguide/funding/funding.html",
     "title": "Funding",
     "section": "",
-    "text": "Most postdocs in the lab are funded through postdoctoral fellowships or grants that they write themselves.\n\nSome postdocs are funded through existing grants. In this case, the postdoc must spend a significant portion of their time working on that project. However, the lab also provides postdocs the room to develop their own ideas.\n\n\n\nWe have the opportunity to request Diversity Supplements for our NIH grants. If you qualify for such a fellowship (which includes individuals from underrepresented racial/ethnic groups, disadvantaged backgrounds, or rural/low-income areas), please contact Dr. Poldrack to discuss your interest."
+    "text": "Most postdocs in the lab are funded through postdoctoral fellowships or grants that they write themselves.\n\nSome postdocs are funded through existing grants. In this case, the postdoc must spend a significant portion of their time working on that project. However, the lab also provides postdocs the room to develop their own ideas.\n\nWe have the opportunity to request Diversity Supplements for our NIH grants. If you qualify for such a fellowship (which includes individuals from underrepresented racial/ethnic groups, disadvantaged backgrounds, or rural/low-income areas), please contact Dr. Poldrack to discuss your interest."
   },
   {
     "objectID": "labguide/funding/funding.html#how-are-postdocs-in-the-lab-funded",
     "href": "labguide/funding/funding.html#how-are-postdocs-in-the-lab-funded",
     "title": "Funding",
     "section": "",
-    "text": "Most postdocs in the lab are funded through postdoctoral fellowships or grants that they write themselves.\n\nSome postdocs are funded through existing grants. In this case, the postdoc must spend a significant portion of their time working on that project. However, the lab also provides postdocs the room to develop their own ideas.\n\n\n\nWe have the opportunity to request Diversity Supplements for our NIH grants. If you qualify for such a fellowship (which includes individuals from underrepresented racial/ethnic groups, disadvantaged backgrounds, or rural/low-income areas), please contact Dr. Poldrack to discuss your interest."
+    "text": "Most postdocs in the lab are funded through postdoctoral fellowships or grants that they write themselves.\n\nSome postdocs are funded through existing grants. In this case, the postdoc must spend a significant portion of their time working on that project. However, the lab also provides postdocs the room to develop their own ideas.\n\nWe have the opportunity to request Diversity Supplements for our NIH grants. If you qualify for such a fellowship (which includes individuals from underrepresented racial/ethnic groups, disadvantaged backgrounds, or rural/low-income areas), please contact Dr. Poldrack to discuss your interest."
   },
   {
     "objectID": "labguide/mission_statement.html",
@@ -413,11 +413,81 @@
     "text": "Coding standards\n\nCode should be readable\nAll lab members should be familiar with principles of readable coding:\n\nArt of Readable Code\nClean Code\n\nCode should be modular\n\nFunctions should do a single thing that is clearly expressed in the name of the function\nFunctions should include a docstring that clearly specifies input and output\n\nCode should be portable\n\nAny absolute paths should be specified as a variable in a single location, or preferably as a command line argument\nAny required environment variables should be clearly described\nAny non-standard requirements (e.g. Python libraries not available through PYPI) should be described with instructions on how to install\n\nImportant functions should be tested"
   },
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Research Projects",
+    "section": "",
+    "text": "Characterizing cognitive control networks using a precision neuroscience approach\nData-driven validation of cognitive RDoC dimensions using deep phenotyping\nPrecise brain maps of motor skill training in humans\nMyConnectome"
+  },
+  {
+    "objectID": "projects.html#cognitive-neuroscience-projects",
+    "href": "projects.html#cognitive-neuroscience-projects",
+    "title": "Research Projects",
+    "section": "",
+    "text": "Characterizing cognitive control networks using a precision neuroscience approach\nData-driven validation of cognitive RDoC dimensions using deep phenotyping\nPrecise brain maps of motor skill training in humans\nMyConnectome"
+  },
+  {
+    "objectID": "projects.html#informatics-projects",
+    "href": "projects.html#informatics-projects",
+    "title": "Research Projects",
+    "section": "Informatics projects",
+    "text": "Informatics projects\n\nOpenNeuro\n\nA data sharing archive for neuroscience data\nFunded by R24MH117179\n\nBrain Imaging Data Structure (BIDS)\n\nA framework for organization of neuroimaging data and metadata\nFunded by R01MH126699, R24MH114705\n\nNeurovault\n\nA data sharing archive for summary data from neuroimaging studies\n\nNeurosynth\n\nA platform for coordinate-based meta-analysis on neuroimaging data\n\nfMRIPrep\n\nA robust and reproducible preprocessing workflow for fMRI data\nFunded by RF1MH121867\n\nMRIQC\n\nA quality control tool for structural and functional MRI data\n\nTemplateflow\n\nA FAIR sharing archive and toolkit for neuroimaging templates and atlases\n\nWomen’s Brain Health Initiative Data Coordinating Center\n\nA project to coordinate data from several University of California Imaging Centers in service of better understanding women’s brain health.\n\nCognitive Atlas\n\nAn ontology for cognitive science\n\nExperiment Factory\n\nA platform for online behavioral experimentation"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "The Poldrack Lab at Stanford",
+    "title": "The Poldrack Lab @Stanford",
     "section": "",
-    "text": "Our lab is focused on understanding how the brain gives rise to adaptive human behaviors. We use a combination of functional neuroimaging, cognitive psychology, and computational modeling to address this question. We also develop tools and infrastructure to make neuroscience more transparent and reproducible.\nIn the Poldrack Lab, we want all of our lab members to feel valued, appreciated, safe, and free to be who they are. We embrace diversity and are committed to preventing discrimination against people based on gender identity or expression, sexual orientation, race, ethnicity, religion, age, neurodiversity, disability status, citizenship, or any other feature that makes them unique.\nWe have an online Lab Manual that outlines our lab’s values, principles, and practices.\nLearn more about our lab’s work:\n\nProjects\nPublications\nPresentations\nSoftware\n\n\nThis work is licensed under a Creative Commons Attribution 4.0 International License."
+    "text": "Our lab is focused on understanding how the brain gives rise to adaptive human behaviors. We use a combination of functional neuroimaging, cognitive psychology, and computational modeling to address this question. We also develop tools and infrastructure to make neuroscience more transparent and reproducible.\nIn the Poldrack Lab, we want all of our lab members to feel valued, appreciated, safe, and free to be who they are. We embrace diversity and are committed to preventing discrimination against people based on gender identity or expression, sexual orientation, race, ethnicity, religion, age, neurodiversity, disability status, citizenship, or any other feature that makes them unique.\nWe have an online Lab Guide that outlines our lab’s values, principles, and practices.\nLearn more about our lab’s work:\n\nProjects\nPublications\nPresentations\nSoftware\n\n\nThis work is licensed under a Creative Commons Attribution 4.0 International License."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "Poldracklab members",
+    "section": "",
+    "text": "Russ Poldrack"
+  },
+  {
+    "objectID": "people.html#pi",
+    "href": "people.html#pi",
+    "title": "Poldracklab members",
+    "section": "",
+    "text": "Russ Poldrack"
+  },
+  {
+    "objectID": "people.html#research-scientists",
+    "href": "people.html#research-scientists",
+    "title": "Poldracklab members",
+    "section": "Research Scientists",
+    "text": "Research Scientists\n\nPatrick Bissett\nJoshua Buckholtz\nJeanette Mumford"
+  },
+  {
+    "objectID": "people.html#postdoctoral-scholars",
+    "href": "people.html#postdoctoral-scholars",
+    "title": "Poldracklab members",
+    "section": "Postdoctoral scholars",
+    "text": "Postdoctoral scholars\n\nMichael Demidenko\nElizabeth DuPre\nPaul Jaffe\nAnita Jwa\nArmin Thomas"
+  },
+  {
+    "objectID": "people.html#graduate-students",
+    "href": "people.html#graduate-students",
+    "title": "Poldracklab members",
+    "section": "Graduate Students",
+    "text": "Graduate Students\n\nRastko Ciric\nLynde Folsom\nGrace Huckins\nAnna Xu"
+  },
+  {
+    "objectID": "people.html#research-administrators",
+    "href": "people.html#research-administrators",
+    "title": "Poldracklab members",
+    "section": "Research Administrators",
+    "text": "Research Administrators\n\nJaime Rios\nSunjae Shim"
+  },
+  {
+    "objectID": "people.html#software-developers",
+    "href": "people.html#software-developers",
+    "title": "Poldracklab members",
+    "section": "Software Developers",
+    "text": "Software Developers\n\nRoss Blair\nNell Hardcastle\nMathias Goncalves\nChris Markiewicz"
   },
   {
     "objectID": "volunteer.html",
@@ -445,7 +515,35 @@
     "href": "software.html",
     "title": "Poldracklab software",
     "section": "",
-    "text": "Our lab endeavors to make all of our research code openly available.  None of this code is guaranteed to work outside of our local environment, and most of it is not built for portability, but if you use it and find any bugs, please let us know.  Unless otherwise noted, all code is released under the unrestrictive MIT License.  \n\n\n\nPoldracklab github - lab repository\n&lt;ul&gt;\n    &lt;li&gt;&lt;a href=\"https://github.com/poldracklab/DLMNP_simulations\"&gt;Simulation code from Davis et al. 2014&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"http://github.com/poldrack\"&gt;Russ Poldrack's github&lt;/a&gt;&nbsp; - home to much of the analysis code that Russ has developed&lt;/li&gt;\n&lt;li&gt;Data/code for published papers\n&lt;ul&gt;\n    &lt;li&gt;Data for our imaging papers is available via the&nbsp;&lt;a href=\"http://www.openfmri.org/\"&gt;OpenfMRI project&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"https://web.stanford.edu/group/poldracklab/data/WhitePoldrack2014.zip\"&gt;Data/code for White &amp; Poldrack, 2014&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;Software for tasks used in the lab\n&lt;ul&gt;\n    &lt;li&gt;&lt;a href=\"http://web.stanford.edu/group/poldracklab/software/stopsig_behav.zip\"&gt;Stop signal task&lt;/a&gt;&nbsp;(for behavioral testing outside the scanner)&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"http://web.stanford.edu/group/poldracklab/software/stopsig_fmri.zip\"&gt;Stop signal task&nbsp;&lt;/a&gt;(for use in the scanner)&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"http://web.stanford.edu/group/poldracklab/software/mixed_gambles_task.zip\"&gt;mixed gambles task&nbsp;&lt;/a&gt;(demo and scanning script)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;Software used in Consortium for Neuropsychiatric Phenomics (CNP)\n&lt;ul&gt;\n    &lt;li&gt;​&nbsp;Users of these tasks should include the following acknowledgment in any resulting publications:&nbsp;&lt;em&gt;Development of this software was supported by the Consortium for Neuropsychiatric Phenomics (NIH Roadmap for Medical Research grants UL1-DE019580, RL1MH083269, RL1DA024853, PL1MH083271&lt;/em&gt;.&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"http://web.stanford.edu/group/poldracklab/software/BART.zip\"&gt;Balloon Analog Risk task&nbsp;&lt;/a&gt;(demo and scanning script)&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"http://web.stanford.edu/group/poldracklab/software/BHT.zip\"&gt;Breath holding task&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;Paired Associate Memory&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"http://web.stanford.edu/group/poldracklab/software/SCAP.zip\"&gt;Spatial working memory capacity&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"http://web.stanford.edu/group/poldracklab/software/STOPSIG.zip\"&gt;Stop Signal task&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"http://web.stanford.edu/group/poldracklab/software/TASKSWITCH.zip\"&gt;Task switchin&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;"
+    "text": "Our lab endeavors to make all of our research code openly available. None of this code is guaranteed to work outside of our local environment, and most of it is not built for portability, but if you use it and find any bugs, please let us know. Unless otherwise noted, all code is released under the unrestrictive MIT License\nFor additional information on our organized software development projects, see here."
+  },
+  {
+    "objectID": "software.html#github-repositories",
+    "href": "software.html#github-repositories",
+    "title": "Poldracklab software",
+    "section": "Github repositories",
+    "text": "Github repositories\n\nPoldracklab Github organization\nRuss Poldrack’s Github page"
+  },
+  {
+    "objectID": "software.html#datacode-for-published-papers",
+    "href": "software.html#datacode-for-published-papers",
+    "title": "Poldracklab software",
+    "section": "Data/code for published papers",
+    "text": "Data/code for published papers\n\nData for several of our our imaging papers is available via the OpenNeuro project\nSimulation code from Davis et al. 2014\nData/code for White & Poldrack, 2014"
+  },
+  {
+    "objectID": "software.html#software-for-tasks-used-in-lab-publications",
+    "href": "software.html#software-for-tasks-used-in-lab-publications",
+    "title": "Poldracklab software",
+    "section": "Software for tasks used in lab publications",
+    "text": "Software for tasks used in lab publications\n\nmixed gambles task (demo and scanning script from task used in Tom et al., 2007)"
+  },
+  {
+    "objectID": "software.html#software-used-in-consortium-for-neuropsychiatric-phenomics-cnp",
+    "href": "software.html#software-used-in-consortium-for-neuropsychiatric-phenomics-cnp",
+    "title": "Poldracklab software",
+    "section": "Software used in Consortium for Neuropsychiatric Phenomics (CNP)",
+    "text": "Software used in Consortium for Neuropsychiatric Phenomics (CNP)\n\n​Users of these tasks should include the following acknowledgment in any resulting publications: Development of this software was supported by the Consortium for Neuropsychiatric Phenomics (NIH Roadmap for Medical Research grants UL1-DE019580, RL1MH083269, RL1DA024853, PL1MH083271.\nBalloon Analog Risk task (demo and scanning script)\nBreath holding task\nPaired Associate Memory\nSpatial working memory capacity\nStop Signal task\nTask switchin"
   },
   {
     "objectID": "lab_volunteers.html",
