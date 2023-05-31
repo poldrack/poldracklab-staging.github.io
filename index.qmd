@@ -9,7 +9,7 @@ format:
 <br>
 <br>
 
-<center><a><img src="images/poldracklab_2022.png" alt="Poldracklab logo" width="50%"/></a></center>
+<center><a><img src="images/poldracklab_2022_small.png" alt="Poldracklab logo" width="50%"/></a></center>
 
 <br>
 <br>
