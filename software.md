@@ -22,7 +22,7 @@ For additional information on our organized software development projects, see [
 - [Data/code for White & Poldrack, 2014](https://web.stanford.edu/group/poldracklab/data/WhitePoldrack2014.zip)
 
 ## Software for tasks used in lab publications
-
+- Many of our recent tasks are housed in the [Experiment Factory](https://expfactory.github.io/)
 - [mixed gambles task](http://web.stanford.edu/group/poldracklab/software/mixed_gambles_task.zip) (demo and scanning script from task used in Tom et al., 2007)
 
 ## Software used in Consortium for Neuropsychiatric Phenomics (CNP)
