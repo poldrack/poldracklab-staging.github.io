@@ -20,7 +20,7 @@ jobs:
     - name: Verify Install
       run: /usr/local/bin/quarto check
     - name: Install nbformat
-      run: pip install nbformat
+      run: pip install nbformat nbclient
     - name: Install academicdb
       run: pip install academicdb
     - name: decrypt config file
