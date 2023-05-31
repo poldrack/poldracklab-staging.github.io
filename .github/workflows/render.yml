@@ -36,3 +36,7 @@ jobs:
         TOKEN_PASSCODE: ${{ secrets.TOKEN_PASSCODE }}
     - name: build site
       run: quarto render .
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: docs # The folder the action should deploy.
