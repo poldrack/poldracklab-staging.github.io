@@ -5,5 +5,4 @@
 # --yes to assume "yes" for questions
 mkdir .config
 gpg --quiet --batch --yes --decrypt --passphrase="$TOKEN_PASSCODE" \
---output .config/pybliometrics.cfg config.ini.gpg
-find .config
+--output /home/runner/.config/pybliometrics.cfg config.ini.gpg
