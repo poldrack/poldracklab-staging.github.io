@@ -30,5 +30,9 @@ jobs:
       run: ./decrypt_secret.sh
       env:
         CONFIG_SECRET_PASSPHRASE: ${{ secrets.CONFIG_SECRET_PASSPHRASE }}
+    - name: decrypt token file
+      run: ./decrypt_token.sh
+      env:
+        TOKEN_PASSCODE: ${{ secrets.TOKEN_PASSCODE }}
     - name: build site
       run: quarto render .
